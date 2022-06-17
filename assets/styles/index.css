@@ -1,0 +1,16 @@
+.cardCustom {
+  cursor: pointer;
+  width: 160px;
+  position: relative;
+  left: 80px;
+  margin-left: -75px;
+}
+
+#player,
+#computer {
+  height: 245px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+}

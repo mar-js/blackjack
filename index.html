@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/index.css">
+  <title>Blackjack</title>
+</head>
+
+<body>
+  <header class="text-center bg-secondary pt-2">
+    <h1 class="text-light">Blackjack</h1>
+    <nav class="bg-light py-2">
+      <div class="btn-group" role="group" aria-label="Decks">
+        <button id="btnNewGame" type="button" class="btn btn-success mx-1">Nuevo Juego</button>
+        <button id="btnAskForCards" type="button" class="btn btn-primary mx-1">Pedir Cartas</button>
+        <button id="btnStop" type="button" class="btn btn-danger mx-1">Detener</button>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="mt-1">
+      <h2 class="text-secondary">Jugador 1 - <i class="text-success">0</i></h2>
+      <div id="player" class="w-100 overflow-x-scroll">
+        <!-- <img class="cardCustom" src="./assets/images/10C.png" alt="carta"> -->
+      </div>
+    </section>
+    <section class="mt-1">
+      <h2 class="text-secondary">Computadora - <i class="text-success">0</i></h2>
+      <div id="computer" class="w-100 overflow-x-scroll">
+        <!-- <img class="cardCustom" src="./assets/images/10C.png" alt="carta"> -->
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
